@@ -3,6 +3,7 @@ require 'bundler/setup'
 
 require 'resque/server'
 require 'resque_scheduler'
+require 'json'
 
 require 'yaml'
 
