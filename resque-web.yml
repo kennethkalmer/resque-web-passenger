@@ -1,0 +1,12 @@
+# Password to use for basic authentication
+password:
+
+# Path to resque config file
+resque:
+  config_path: /u/apps/myapp/current/config/resque.yml
+  env_key: development # Or leave empty if no key is used
+
+# Resque-scheduler config
+scheduler:
+  config_path: /u/apps/myapp/current/config/scheduler.yml
+  env_key: development # Or leave empty if not key is used
