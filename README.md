@@ -11,6 +11,12 @@ You can update the locations in `resque-web.yml` to point to the
 configuration files used in your real application, so no need to
 duplicate them here.
 
+We expect the redis configuration to be in the following format:
+
+```yaml
+environment: hostname:port
+```
+
 Tweaking required
 -----------------
 
