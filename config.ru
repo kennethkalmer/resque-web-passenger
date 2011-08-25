@@ -19,6 +19,7 @@ Resque.redis = Redis.connect(
   :host => redis_config['host'],
   :port => redis_config['port']
 )
+Resque.redis.namespace = redis_config['namespace'] if redis_config['namespace']
 
 if config['scheduler']
   # Load scheduler config
